@@ -1,0 +1,22 @@
+.board{
+
+    display: grid;
+    grid-template-columns: repeat(8,75px);
+    width: 600px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 30%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.blackBox {
+
+    background-color: black;
+   
+}
+.whiteBox {
+
+    background-color: white;
+
+}
